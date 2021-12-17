@@ -1,0 +1,22 @@
+#poke-list {
+    padding-top: 20px;
+}
+
+.pokemon {
+    padding: 4px 4px;
+    margin: 2px 0px;
+    background-color: indigo;
+    color: gold;
+    text-transform: capitalize;
+    max-width: 600px;
+    list-style-type: none;
+}
+
+.pokemon:hover {
+    color:black;
+    background-color: red;
+}
+
+#alpha-sort-btn {
+    margin-left: 32px;
+}

@@ -1,0 +1,6 @@
+<button id="alpha-sort-btn" (click)='toggleSort()'>Sort</button>
+<div id="poke-list"  *ngIf="pokeList">
+    <ul *ngFor="let pokemon of tempList">
+        <li class="pokemon" (click)="goToDetails($event)">{{pokemon.name}}</li>
+    </ul>
+</div>

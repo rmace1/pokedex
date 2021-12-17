@@ -1,0 +1,12 @@
+<div class="poke-card">
+    <div class="img-container">
+        <img *ngIf='pokemon.sprites' [src]="img" (click)='toggleImage()'>
+    </div>
+    <h3>{{pokemon.name | uppercase}}</h3>
+    <h4>Abilities</h4>
+    <ul>
+        <div *ngFor="let item of pokemon.abilities">
+            <li>{{item.ability.name}}</li>
+        </div>
+    </ul>
+</div>
